@@ -6,6 +6,15 @@ Built with **React (JavaScript)** for the frontend and **Spring Boot (Java)** fo
 
 ---
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/before.png" width="45%" />
+  <img src="screenshots/after.png" width="45%" />
+</p>
+
+---
+
 ## Features
 
 - Extracts article text directly from the current Chrome tab
