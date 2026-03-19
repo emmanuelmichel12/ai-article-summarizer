@@ -1,0 +1,34 @@
+/* make the popup itself a nice fixed size */
+body 
+{
+  margin: 0;
+  width: 360px;
+  height: 220px;
+  display: flex;
+  align-items: center;     /* vertical center */
+  justify-content: center; /* horizontal center */
+}
+
+/* this centers title + button within the container */
+.container 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* center horizontally */
+  gap: 16px;             /* space between title and button */
+  padding: 16px;
+}
+
+/* optional: makes the title look nicer */
+.title 
+{
+  margin: 0;
+  text-align: center;
+}
+
+/* optional: button styling */
+.button 
+{
+  padding: 10px 14px;
+  border-radius: 10px;
+}
